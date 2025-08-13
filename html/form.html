@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        .form-container {
+            border: 3px solid blue;
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 8px;
+        }
+        input[type="submit"], input[type="reset"] {
+            padding: 5px 15px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><b>Contact Us</b></h1>
+
+    <div class="form-container">
+        <form>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="fname"></td>
+                </tr>
+                <tr>
+                    <td>Mail Id:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>MessGE</td>
+                    <td><textarea name="message" rows="5" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Month</td>
+                    <td><input type="month" name="month"></td>
+                </tr>
+                <tr>
+                    <td>week:</td>
+                    <td><input type="week" name="week"></td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td><input type="color" name="color"></td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td><input type="range" name="range"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="SUBMIT">
+                        <input type="reset" value="RESET">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
